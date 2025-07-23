@@ -18,19 +18,19 @@ export function Hero() {
       </div>
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 dark:text-gray-300 ring-1 ring-gray-900/10 dark:ring-gray-100/10 hover:ring-gray-900/20 dark:hover:ring-gray-100/20">
             Secure user authentication made simple.{' '}
-            <Link href="/auth" className="font-semibold text-indigo-600">
+            <Link href="/auth" className="font-semibold text-indigo-600 dark:text-indigo-400">
               <span className="absolute inset-0" aria-hidden="true" />
               Get started <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>
         </div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
             Welcome to UserAuth Demo
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
             A modern authentication system built with Next.js, featuring secure
             user registration, login functionality, and a protected dashboard.
             Experience seamless user management with our clean and intuitive
@@ -38,7 +38,7 @@ export function Hero() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link href="/auth">
-              <Button className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 text-lg">
+              <Button className="bg-indigo-600 hover:bg-indigo-500 text-white dark:bg-indigo-600 dark:hover:bg-indigo-700 px-6 py-3 text-lg">
                 Get started
               </Button>
             </Link>
